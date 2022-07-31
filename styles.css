@@ -1,0 +1,267 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+ /* general */
+
+ body {
+    line-height: 1.5;
+    width: 100%;
+ }
+
+ .container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+ }
+
+
+ /* hero */
+
+ .hero {
+    background-image: url(./assets/media/banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+
+  .sub-content{
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+
+  }
+
+  .content a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    background-color: #ea513e;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .icon {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+ /* header */
+
+ .fa-brands {
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+ }
+
+ .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ 
+ .brand {
+
+    display: flex;
+    flex-direction: row;
+ }
+
+ .brand img {
+    width: 100px;
+    height: 70px;
+ }
+ .brand .heading {
+    font-size: 24px;
+    color: #ea513e;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+ }
+
+
+ .header {
+    display: fixed;
+    text-align: center;
+    margin: 100px;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+
+    width: 100%;
+     }
+
+
+ .navbar a {
+    text-decoration: none;
+    color: #123;
+    font-size: 12px;
+    padding: 20px;
+    text-transform: uppercase;
+ }
+
+ .navbar .active {
+    color: #ea513e;
+   border-top: 2px solid red;
+ }
+
+
+
+
+/* our services */
+
+.center {
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+h3 {
+    font: 32px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+    }
+
+.black {
+    color: #000;
+}
+
+
+
+.services {
+    height: 300px;
+    width: 330px;
+}
+
+.orangered {
+    background-color: orangered;
+}
+.blue{
+    background-color: blue;
+}
+
+.greenish {
+    background-color: rgb(4, 112, 81);
+}
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.white {
+    color: white;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* our portfolio */
+
+
+.portfolio img {    
+
+        height: 100%;
+        margin: 10px;
+        width: 100%;
+        object-fit: cover;
+      
+
+}
+
+.portfolio {
+
+margin-bottom: 20px;
+
+}
+    
+
+.portfolio-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    
+.profile {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
